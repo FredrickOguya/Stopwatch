@@ -1,0 +1,26 @@
+/* Write CSS code here */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background:#464e32;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stopwatch-container{
+    text-align: center;
+}
+#stopwatch{
+    font-size: 49px;
+    margin:0 0 93 0;
+    color: blue;
+}
+.buttons button{
+    cursor: pointer;
+    padding: 15px;
+    background: blueviolet;
+}
+.buttons button:hover{
+    background-color: yellow;
+}
